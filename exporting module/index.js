@@ -1,4 +1,4 @@
-const greet = require('./greet')
+const greet = require('./greet');
 
 // this allows us to use the function form greet.js file,
 
