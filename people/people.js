@@ -8,3 +8,5 @@ let person3 = "John";
 module.exports = {person1, person2, person3};
 // module.exports = person2;
 // module.exports = person3;
+
+// telling other files you can get that functiono 
