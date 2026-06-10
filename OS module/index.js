@@ -25,4 +25,7 @@ console.log(os.freemem());
 
 
 console.log(os.totalmem());
-// gives total memory 
+// gives total memory in hard drive
+
+
+
