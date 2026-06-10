@@ -40,50 +40,50 @@ import * as fs from "fs/promises";
 //   console.log(error);
 // }
 
-// // Now how to create and write files
-// // try {
-// //     await fs.writeFile("README.md", "hello node js");
-// //     console.log("Writing successfull");
-// // } catch (error) {
-
-// //   console.log(error);
-// // }
-
-// // now learning how to read a file
-
+// Now how to create and write files
 // try {
-//   const data = await fs.readFile("README.md", "utf-8");
-//   console.log(data);
-//   // it will give buffer data
-//   // and to get a actual data you need to provide file type
+//     await fs.writeFile("README.md", "hello node js");
+//     console.log("Writing successfull");
 // } catch (error) {
+
 //   console.log(error);
 // }
 
-// // this  is how you rad data
+// now learning how to read a file
 
-// // appeding data
+try {
+  const data = await fs.readFile("README.md", "utf-8");
+  console.log(data);
+  // it will give buffer data
+  // and to get a actual data you need to provide file type
+} catch (error) {
+  console.log(error);
+}
 
-// try {
-//   await fs.appendFile("README.md", "This is the next line");
-// } catch (error) {
-//   console.log(error);
-// }
+// this  is how you rad data
 
-// // learning how to copy a file
-// try {
-//   await fs.copyFile("README.md", "info.txt");
-// } catch (error) {
-//   console.log(error);
-// }
+// appeding data
 
-// // learning to get file information
-// try {
-//   const info = await fs.stat("info.txt");
-//   console.log(info);
-// } catch (error) {
-//   console.log(error);
-// }
+try {
+  await fs.appendFile("README.md", "This is the next line");
+} catch (error) {
+  console.log(error);
+}
+
+// learning how to copy a file
+try {
+  await fs.copyFile("README.md", "info.txt");
+} catch (error) {
+  console.log(error);
+}
+
+// learning to get file information
+try {
+  const info = await fs.stat("info.txt");
+  console.log(info);
+} catch (error) {
+  console.log(error);
+}
 
 // or specific information
 
